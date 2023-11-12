@@ -1,0 +1,13 @@
+.container{
+    text-align: center;
+}
+h1.center {
+    text-align: center;
+    color: #3b2f2f;
+    text-decoration: underline;
+}
+
+p.listhead{
+    font-size: 20px;
+    font-weight: bold;
+}

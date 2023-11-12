@@ -1,0 +1,44 @@
+{
+    "BisectionExample": [
+      { "id": 0, "getXL": "0", "getXR": "0", "getErrorApox" : "0.0001", "getFunct" : "0" },
+      { "id": 1, "getXL": "2", "getXR": "3", "getErrorApox" : "0.005", "getFunct" : "x^2-7" },
+      { "id": 2, "getXL": "4", "getXR": "5", "getErrorApox" : "0.07", "getFunct" : "x^2-17" },
+      { "id": 3, "getXL": "2", "getXR": "9", "getErrorApox" : "0.45", "getFunct" : "x^4-86" },
+      { "id": 4, "getXL": "2", "getXR": "15", "getErrorApox" : "10", "getFunct" : "x^2-79" },
+      { "id": 5, "getXL": "15", "getXR": "8", "getErrorApox" : "1", "getFunct" : "x^2-15" }
+    ],
+    "FalsePositionExample": [
+      { "id": 0, "getXL": "0", "getXR": "0", "getErrorApox" : "0.0001", "getFunct" : "0" },
+      { "id": 1, "getXL": "2", "getXR": "3", "getErrorApox" : "0.005", "getFunct" : "x^2-7" },
+      { "id": 2, "getXL": "4", "getXR": "5", "getErrorApox" : "0.07", "getFunct" : "x^2-17" },
+      { "id": 3, "getXL": "2", "getXR": "9", "getErrorApox" : "0.45", "getFunct" : "x^4-86" },
+      { "id": 4, "getXL": "2", "getXR": "15", "getErrorApox" : "10", "getFunct" : "x^2-79" },
+      { "id": 5, "getXL": "15", "getXR": "8", "getErrorApox" : "1", "getFunct" : "x^2-15" }
+    ],
+    "OnePointExample": [
+        { "id": 0, "getX": "0", "getErrorApox" : "0.0001", "getFunct" : "0" },
+        { "id": 1, "getX": "2", "getErrorApox" : "0.005", "getFunct" : "x^2-7" },
+        { "id": 2, "getX": "4", "getErrorApox" : "0.07", "getFunct" : "x^2-17" },
+        { "id": 3, "getX": "2", "getErrorApox" : "0.45", "getFunct" : "x^4-86" },
+        { "id": 4, "getX": "2", "getErrorApox" : "10", "getFunct" : "x^2-79" },
+        { "id": 5, "getX": "15", "getErrorApox" : "1", "getFunct" : "x^2-15" }
+    ],"NewtonRaphsonExample": [
+        { "id": 0, "getX": "0", "getErrorApox" : "0.0001", "getFunct" : "0" },
+        { "id": 1, "getX": "2", "getErrorApox" : "0.005", "getFunct" : "x^2-7" },
+        { "id": 2, "getX": "4", "getErrorApox" : "0.07", "getFunct" : "x^2-17" },
+        { "id": 3, "getX": "2", "getErrorApox" : "0.45", "getFunct" : "x^4-86" },
+        { "id": 4, "getX": "2", "getErrorApox" : "10", "getFunct" : "x^2-79" },
+        { "id": 5, "getX": "15", "getErrorApox" : "1", "getFunct" : "x^2-15" }
+    ],"SecantExample": [
+        { "id": 0, "getX0": "0", "getX1": "0", "getErrorApox" : "0.0001", "getFunct" : "0" },
+        { "id": 1, "getX0": "2", "getX1": "3", "getErrorApox" : "0.005", "getFunct" : "x^2-7" },
+        { "id": 2, "getX0": "4", "getX1": "5", "getErrorApox" : "0.07", "getFunct" : "x^2-17" },
+        { "id": 3, "getX0": "2", "getX1": "9", "getErrorApox" : "0.45", "getFunct" : "x^4-86" },
+        { "id": 4, "getX0": "2", "getX1": "15", "getErrorApox" : "10", "getFunct" : "x^2-79" },
+        { "id": 5, "getX0": "15", "getX1": "8", "getErrorApox" : "1", "getFunct" : "x^2-15" }
+      ],"CramerRuleExample":[
+        {"id":0, "getSize": "4"}
+      ],"RegressionExample":[
+        {"id":0, "getSize": "2","getDegree": "2","getXi": "3"}
+      ]
+  }
